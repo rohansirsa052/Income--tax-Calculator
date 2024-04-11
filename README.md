@@ -1,1 +1,1 @@
-# Income--tax-Calculator
+# Income-tax-Calculator
