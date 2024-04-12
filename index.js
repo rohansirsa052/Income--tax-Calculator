@@ -84,10 +84,10 @@ if (isNaN(deductions)) {
         const button= document.getElementsByClassName('button2')[0];
         const amount= document.getElementsByClassName('amount')[0];
         amount.innerHTML = `${taxAmount}`
-        page.style.visibility= 'visible';
+        page.style.display= 'flex';
         form.style.display= 'none'
         button.addEventListener('click', () => {
-          page.style.visibility = 'hidden';
+          page.style.display = 'none';
          form.style.display = 'block';
       });   
     }
